@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px 250px 0px 350px;
+}
+
+aside {
+    background-color: white;
+    font-size: 16px;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    margin: 50px;
+}
+
+aside #links {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+#links li {
+    margin-bottom: 15px;
+}
+
+aside>ul>li>a {
+    text-decoration: none;
+}
+
+aside>img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    float: center;
+}
+
+main {
+    background-color: lightgray;
+    width: 640px;
+    height: 640px;
+    margin: 25px 0px;
+}
+
+main>h1 {
+    text-align: center;
+}
+
+article {
+    display: flex;
+    margin: 10px;
+    text-align: center;
+}
+
+#lista-tarefas-dia {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border: black solid 1px;
+    margin: 1px;
+}
+
+#nova-tarefa-dia {
+    font-size: 24px;
+    width: 150px;
+    height: 25px;
+    padding: 0 20px;
+}
+
+.botao-tarefa-dia {
+    border-radius: 10px;
+    background-color: grey;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    height: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#lista-tarefas-noite {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border: black solid 1px;
+    margin: 1px;
+}
+
+#nova-tarefa-noite {
+    font-size: 24px;
+    width: 150px;
+    height: 25px;
+    padding: 0 20px;
+}
+
+.botao-tarefa-noite {
+    border-radius: 10px;
+    background-color: grey;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    height: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+}
